@@ -1,5 +1,11 @@
+/**
+	For simple applications, you might define all of your views in this file.  
+	For more complex applications, you might choose to separate these kind definitions 
+	into multiple files under this folder.
+*/
+
 enyo.kind({
-	name: "App",
+	name: "myapp.MainView",
 	kind: "FittableRows",
 	fit: true,
 	components:[
